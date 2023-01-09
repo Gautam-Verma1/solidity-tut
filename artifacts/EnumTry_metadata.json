@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getNum",
+				"name": "getDefaultChoice",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,33 +15,27 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "num",
+				"name": "getLarge",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "enum EnumTry.Days",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "str",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "setDay",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"MyFirstContract.sol": "MyFirstContract"
+			"EnumTry.sol": "EnumTry"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"MyFirstContract.sol": {
-			"keccak256": "0x87c32da360ec1d4be5dc4bfbe340358773aff1430aa030eab847143f528540e5",
+		"EnumTry.sol": {
+			"keccak256": "0x9ce00090b7fe218857342de786a101eb135ea1efb96bdbc4d5a4a3d009c8888e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ba0660e4d6fde223c66b4b9931e7383271813f6470770f54eca6514e5db08b48",
-				"dweb:/ipfs/QmZGjcMxVXjE15Pgr8VLwoUaCvZp1YWr7wU3NioivADbxh"
+				"bzz-raw://0e752f83a6af9098e458cb8b075ab24b53850e19f94db9bdb33b1b201bdf58cf",
+				"dweb:/ipfs/QmexoScWUNYhKGAKtvA2bqTvwRAMapPSdsNtiNGjw9dscT"
 			]
 		}
 	},
