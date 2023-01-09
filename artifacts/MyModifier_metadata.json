@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_empId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "details",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyModifier.sol": "MyModifier"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyModifier.sol": {
+			"keccak256": "0x60ca232b075716da0474c196f3d56da9835a71f6d672b32de659778f552daf62",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4013ba908bfe453ef3261cb8b7290d5e01ec00711bad57194999c1139ac19c68",
+				"dweb:/ipfs/QmQoJstG7zoTU6UmAoSM8peQGYBAFUjBgYHtUj6TJxfuTm"
+			]
+		}
+	},
+	"version": 1
+}
