@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "defineCourse",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCourseId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyStruct.sol": "MyStruct"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyStruct.sol": {
+			"keccak256": "0x2b20f74a80e09376b4c7fa8ecef1d1957f3a66654c3cbecf07e806a0b3704af1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf2cdd1e3c8fbd8087bf87d807f85590df52591252b814e504902bc37c94ddf2",
+				"dweb:/ipfs/QmUoiGUEV1oVj2NeFt49LcX5vhZg7qAc69csEZb1ywAiPq"
+			]
+		}
+	},
+	"version": 1
+}
